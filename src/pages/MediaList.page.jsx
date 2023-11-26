@@ -1,5 +1,5 @@
-const MediaListPage = () => {
-  return <p>Media List Page</p>;
-};
+import MediaListContainer from '../containers/mediaList/MediaList.container';
+
+const MediaListPage = () => <MediaListContainer />;
 
 export default MediaListPage;

@@ -1,0 +1,42 @@
+@import '../../theme/colors';
+
+.media-list {
+  margin-bottom: 16px;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+
+  &__search-bar {
+    padding: 52px;
+    background-color: $warm-grey;
+
+    & > input {
+      min-height: 70px;
+      width: 100%;
+      font-size: 22px;
+      padding: 0 20px;
+      position: relative;
+      border: 1px solid $cool-grey;
+
+      &:focus {
+        outline: 1px solid $cool-grey;
+      }
+    }
+
+    & > button {
+      position: absolute;
+      height: 70px;
+      width: 70px;
+      right: 50px;
+      background-color: transparent;
+      border: none;
+      font-size: 32px;
+      &:hover {
+        cursor: pointer;
+        background-color: $warm-grey;
+        border: 1px solid $cool-grey;
+        outline: 1px solid $cool-grey;
+      }
+    }
+  }
+}

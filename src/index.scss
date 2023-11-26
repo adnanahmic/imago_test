@@ -12,6 +12,8 @@ code {
 
 .page {
   margin-top: 88px;
+  display: flex;
+  min-height: calc(100vh - 88px);
 }
 
 * {
