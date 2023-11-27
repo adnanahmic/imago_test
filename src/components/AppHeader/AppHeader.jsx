@@ -5,7 +5,9 @@ import Hamburger from '../../assets/Hamburger.svg';
 const AppHeader = () => {
   return (
     <header className="app-header">
-      <img src={Logo} />
+      <a href="/">
+        <img src={Logo} />
+      </a>
       <nav>
         <ul>
           <li>Editorial</li>

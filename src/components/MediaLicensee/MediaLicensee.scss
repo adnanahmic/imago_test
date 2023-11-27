@@ -1,0 +1,103 @@
+@import '../../theme/colors';
+
+.media-licensee {
+  flex: 35%;
+  padding: 52px 24px 0;
+
+  & > h4 {
+    text-align: center;
+  }
+
+  &__billing {
+    width: 100%;
+    height: fit-content;
+    border: 0.5px solid #a3a3a6;
+    background: #eae7e2;
+    margin-bottom: 20px;
+  }
+
+  &__billing-header {
+    display: flex;
+    padding: 16px;
+    border-bottom: 0.5px solid #a3a3a6;
+    justify-content: space-between;
+
+    & span {
+      font-size: 24px;
+    }
+
+    &:last-child {
+      border: none;
+    }
+  }
+
+  &__billing-row {
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.5px solid #a3a3a6;
+  }
+
+  &__credit-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & input {
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+    }
+
+    & span {
+      font-size: 20px;
+    }
+  }
+
+  &__billing-caption {
+    font-size: 14px !important;
+    color: #a3a3a6;
+    margin-right: 4px;
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 52px;
+
+    & > button {
+      width: 48%;
+      height: 36px;
+      padding: 5px 16px;
+      border: 1px solid #141414;
+      font-size: 17px;
+      background: none;
+
+      &:last-child {
+        background: #00f5f5;
+        border: none;
+      }
+    }
+  }
+
+  &__details {
+    border-top: 1px solid $black;
+    padding-top: 52px;
+  }
+
+  &__row {
+    margin-bottom: 16px;
+    display: flex;
+
+    & > span {
+      &:first-child {
+        width: 30%;
+        display: inline-block;
+      }
+      &:last-child {
+        width: 70%;
+        display: inline-block;
+      }
+    }
+  }
+}

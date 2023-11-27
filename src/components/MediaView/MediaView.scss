@@ -1,0 +1,14 @@
+@import '../../theme/colors';
+
+.media-view {
+  flex: 65%;
+  padding: 52px;
+  background: $light-grey;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  & > img {
+    max-width: 100%;
+  }
+}

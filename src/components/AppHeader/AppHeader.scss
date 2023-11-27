@@ -10,10 +10,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 52px;
+  background-color: $white;
+  z-index: 999;
+  border-bottom: 0.5px solid $light-grey;
 
   & > nav {
     display: flex;
-    
+
     & > ul {
       display: flex;
       justify-content: space-evenly;
@@ -30,9 +33,9 @@
         transition: color 0.2s ease-in-out;
 
         &:hover {
-          background-color: #000;
+          background-color: $black;
           cursor: pointer;
-          color: #fff;
+          color: $white;
         }
       }
     }

@@ -1,5 +1,7 @@
+import MediaDetailsContainer from '../containers/mediaDetails/MediaDetails.container';
+
 const MediaDetailsPage = () => {
-  return <p>Media Details Page</p>;
+  return <MediaDetailsContainer />;
 };
 
 export default MediaDetailsPage;
